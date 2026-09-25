@@ -32,6 +32,4 @@ app.use(cartRouter)
 const orderRouter = require("./routers/order")
 app.use(orderRouter)
 
-app.listen(port , () =>{
-    console.log(`Server is running on port ${port}`)
-})
+module.exports = app
